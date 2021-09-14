@@ -2,7 +2,6 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .serializers import NoteSerializer
 from .models import Note
-from api import serializers
 
 # Create your views here.
 @api_view(['GET'])
